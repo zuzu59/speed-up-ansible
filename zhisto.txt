@@ -1,0 +1,108 @@
+ansible test -vvvv -i hosts -m ping
+cd
+cd dev/speed-up-ansible/
+ansible test -vvvv -i hosts -m ping
+nano ansible.cfg
+ansible test -vvvv -i hosts -m ping
+cat time.log
+mv time.log time.log.190926.1643
+./time_test.sh ansible-playbook test.yml
+./time_test.sh ansible-playbook test.yml -i hosts
+mv time.log time.log.190926.1645
+mv ansible.cfg ansible.cfg.old
+./time_test.sh ansible-playbook test.yml -i hosts
+nano test.yml
+mv time.log time.log.190926.1647
+ls -alrt
+cat time.log.190926.1645 time.log.190926.1647
+cat time.log.190926.1645
+cat time.log.190926.1647
+cat test.yml
+mv hosts inventory.yml
+ansible-playbook test.yml -i inventory.yml
+cat inventory.yml
+nano inventory.yml
+nano test.yml
+nano inventory.yml
+ansible-playbook test.yml -i inventory.yml
+nano inventory.yml
+ansible-playbook test.yml -i inventory.yml
+./time_test.sh ansible-playbook test.yml -i inventory.yml
+time ansible-playbook test.yml -i inventory.yml
+mv ansible.cfg.old ansible.cfg
+nano ansible.cfg
+time ansible-playbook test.yml -i inventory.yml
+nano inventory.yml
+time ansible-playbook test.yml -i inventory.yml
+nano inventory.yml
+ssh zuzu@siipc6.epfl.ch
+ssh-add -l
+time ansible-playbook test.yml -i inventory.yml
+ssh ubuntu@zuzu-test.ml
+ssh ubuntu@www.zuzu-test.ml
+ssh ubuntu@www.zuzu-tests.ml
+ssh ubuntu@www.zuzutest.ml
+ssh-copy-id -i ubuntu@www.zuzutest.ml
+ssh ubuntu@www.zuzutest.ml
+nano inventory.yml
+time ansible-playbook test.yml -i inventory.yml
+mv ansible.cfg ansible.cfg.old
+cat ansible.cfg.old
+netstat -nat
+time ansible-playbook test.yml -i inventory.yml
+mv ansible.cfg.old ansible.cfg
+nano ansible.cfg
+time ansible-playbook test.yml -i inventory.yml
+nano ansible.cfg
+ansible-config
+ansible-config --help
+ansible-config list
+ansible-config dump
+cat ansible.cfg
+ansible-config dump
+cat ansible.cfg
+ansible-config --help
+ansible-config dump |grep -i persi
+mv ansible.cfg ansible.cfg.old
+ansible-config dump |grep -i persi
+cat ansible.cfg.old
+nano test.yml
+time ansible-playbook test.yml -i inventory.yml
+nano test.yml
+time ansible-playbook test.yml -i inventory.yml
+nano test.yml
+time ansible-playbook test.yml -i inventory.yml
+nano inventory.yml
+time ansible-playbook test.yml -i inventory.yml
+cd ..
+mv speed-up-ansible/ t1
+git clone https://github.com/zuzu59/speed-up-ansible.git
+cd speed-up-ansible/
+cp ../t1/* .
+gst
+cd
+ls
+alias
+source deploy-proxmox/alias
+cd sp
+cd dev/
+cd speed-up-ansible/
+gst
+cd ..
+cd t1
+ls -alrt
+cd ..
+cd speed-up-ansible/
+gst
+gad
+gcm
+../../deploy-proxmox/env_a_zuzu.sh
+gcm
+gps
+zhisto
+alias
+history |tail -n 50 | sed '\''s/^[0-9 ]*//'\''
+'
+alias zhisto='history |tail -n 150 | sed '\''s/^[0-9 ]*//'\'''
+
+
