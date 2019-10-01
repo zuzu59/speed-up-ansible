@@ -12,7 +12,7 @@ all:
 
 
 toto:
-    hosts:
-     test1:
-     test2:
+    var:
+    - test1
+    - test2
 
